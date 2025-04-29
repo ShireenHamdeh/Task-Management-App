@@ -1,0 +1,40 @@
+<resources>
+    <!-- Background Colors -->
+    <color name="background_color">#121212</color> <!-- Dark background -->
+    <color name="card_background_color">#1E1E1E</color> <!-- Dark card background -->
+
+    <!-- Primary Colors -->
+    <color name="colorPrimary">#BB86FC</color> <!-- Purple for dark mode -->
+    <color name="colorPrimaryVariant">#3700B3</color> <!-- Purple 700 for dark mode -->
+    <color name="colorOnPrimary">#FFFFFF</color> <!-- White text on primary color -->
+
+    <!-- Text Colors -->
+    <color name="text_color">#FFFFFF</color> <!-- White for primary text -->
+    <color name="text_secondary_color">#B0B0B0</color> <!-- Light gray for secondary text -->
+
+    <!-- Priority Colors -->
+    <color name="high_priority_color">#FF6161</color> <!-- High priority color -->
+    <color name="text_hint_color">#B0B0B0</color> <!-- Light gray hint text -->
+    <color name="edittext_background_color">#1E1E1E</color> <!-- Dark background for EditText -->
+    <color name="edittext_border_color">#666666</color> <!-- Dark border for EditText -->
+    <color name="error_color">#CF6679</color> <!-- Error message color -->
+    <color name="edittext_tint">#666666</color> <!-- Dark tint for EditText -->
+    <color name="button_background">#BB86FC</color> <!-- Purple button for dark mode -->
+    <color name="button_text_color">#000000</color> <!-- Black button text -->
+    <color name="link_color">#BB86FC</color> <!-- Purple link color for dark mode -->
+    <color name="content_background_color">#1E1E1E</color> <!-- Dark content background -->
+    <color name="drawer_background_color">#1E1E1E</color> <!-- Drawer background -->
+    <color name="icon_tint_color">#FFFFFF</color> <!-- White tint for dark mode -->
+    <color name="primary_text_color">#BB86FC</color> <!-- Light purple for text -->
+    <color name="button_primary_color">#BB86FC</color> <!-- Purple for primary button -->
+    <color name="button_secondary_color">#03DAC6</color> <!-- Teal for secondary button -->
+    <color name="section_background_color">#1E1E1E</color> <!-- Dark gray for dark mode -->
+    <color name="title_text_color">#BB86FC</color> <!-- Light purple title -->
+    <color name="label_text_color">#FFFFFF</color> <!-- White labels -->
+    <color name="input_text_color">#FFFFFF</color> <!-- White input text -->
+    <color name="input_hint_color">#B0B0B0</color> <!-- Light gray hints -->
+    <color name="secondary_text_color">#B0B0B0</color>
+    <color name="switch_text_color">#FFFFFF</color> <!-- White text for Switch -->
+    <color name="today_background_color">#000000</color>
+
+</resources>

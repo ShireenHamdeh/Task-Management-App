@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/drawer_background_color">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/image" />
+
+        <EditText
+            android:id="@+id/emailField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="Email Address"
+            android:inputType="textEmailAddress"
+            android:backgroundTint="@color/edittext_tint"
+            android:textColor="@color/text_color"
+            android:textColorHint="@color/text_hint_color" />
+
+        <TextView
+            android:id="@+id/email_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/error_color"
+            android:textStyle="bold|italic" />
+
+        <EditText
+            android:id="@+id/firstNameField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="First Name"
+            android:inputType="textPersonName"
+            android:backgroundTint="@color/edittext_tint"
+            android:textColor="@color/text_color"
+            android:textColorHint="@color/text_hint_color" />
+
+        <TextView
+            android:id="@+id/firstName_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/error_color"
+            android:textStyle="bold|italic" />
+
+        <EditText
+            android:id="@+id/lastNameField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="Last Name"
+            android:inputType="textPersonName"
+            android:backgroundTint="@color/edittext_tint"
+            android:textColor="@color/text_color"
+            android:textColorHint="@color/text_hint_color" />
+
+        <TextView
+            android:id="@+id/lastName_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/error_color"
+            android:textStyle="bold|italic" />
+
+        <EditText
+            android:id="@+id/passwordField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:backgroundTint="@color/edittext_tint"
+            android:textColor="@color/text_color"
+            android:textColorHint="@color/text_hint_color" />
+
+        <TextView
+            android:id="@+id/password_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/error_color"
+            android:textStyle="bold|italic" />
+
+        <EditText
+            android:id="@+id/confirmPasswordField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:backgroundTint="@color/edittext_tint"
+            android:textColor="@color/text_color"
+            android:textColorHint="@color/text_hint_color" />
+
+        <TextView
+            android:id="@+id/confirmPassword_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/error_color"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/signUpButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@color/button_background"
+            android:text="Sign Up"
+            android:textColor="@color/button_text_color"
+            android:onClick="register" />
+    </LinearLayout>
+</ScrollView>

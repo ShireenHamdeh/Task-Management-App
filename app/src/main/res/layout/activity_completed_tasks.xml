@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/completedTasksTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Completed Tasks"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_color"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/emptyCompletedView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No completed tasks found."
+        android:textSize="18sp"
+        android:textColor="#3D3D3D"
+        android:visibility="gone"
+        android:layout_centerInParent="true" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/CompletedTasks"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/completedTasksTitle"
+        android:clipToPadding="false" />
+</RelativeLayout>

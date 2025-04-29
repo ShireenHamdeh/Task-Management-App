@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="pink">#FFC0CB</color>
+    <color name="orange">#FFA500</color>
+    <color name="purple">#800080</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="background_color_light">#121212</color> <!-- Dark mode background -->
+    <color name="background_color_dark">#FFFFFF</color> <!-- Light mode background -->
+
+    <color name="high_priority_color">#FF0000</color> <!-- High priority color -->
+    <color name="background_color">#FFFFFF</color> <!-- Light background -->
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryVariant">#3700B3</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="card_background_color">#F7F8FA</color> <!-- Light card background -->
+    <color name="text_color">#000000</color> <!-- Primary text -->
+    <color name="text_secondary_color">#757575</color> <!-- Secondary text -->
+    <color name="text_hint_color">#757575</color> <!-- Gray hint text -->
+    <color name="edittext_background_color">#FFFFFF</color> <!-- Light background for EditText -->
+    <color name="edittext_border_color">#CCCCCC</color> <!-- Light border for EditText -->
+
+    <color name="edittext_tint">#CCCCCC</color> <!-- Light tint for EditText -->
+    <color name="button_background">#6200EE</color> <!-- Purple button -->
+    <color name="button_text_color">#FFFFFF</color> <!-- White button text -->
+    <color name="link_color">#6200EE</color> <!-- Purple link color -->
+    <color name="error_color">#F44336</color> <!-- Error message color -->
+
+    <color name="content_background_color">#F7F8FA</color> <!-- Light content background -->
+    <color name="drawer_background_color">#FFFFFF</color> <!-- Drawer background -->
+    <color name="icon_tint_color">#000000</color> <!-- Black tint for light mode -->
+
+
+    <color name="primary_text_color">#6200EE</color> <!-- Purple for text -->
+    <color name="today_background_color">#FBFDFC</color>
+    <color name="button_secondary_color">#03DAC5</color> <!-- Teal for secondary button -->
+    <color name="title_text_color">#7B5D9D</color> <!-- Purple title -->
+    <color name="label_text_color">#000000</color> <!-- Black labels -->
+    <color name="input_text_color">#000000</color> <!-- Black input text -->
+    <color name="input_hint_color">#757575</color> <!-- Gray hints -->
+    <color name="button_primary_color">#6200EE</color> <!-- Purple buttons -->
+    <color name="section_background_color">#FFFFFF</color> <!-- White for light mode -->
+    <color name="switch_text_color">#000000</color> <!-- Black text for Switch -->
+    <color name="secondary_text_color">#666666</color> <!-- Gray for secondary text -->
+
+
+</resources>

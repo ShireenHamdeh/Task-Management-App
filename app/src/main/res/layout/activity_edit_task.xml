@@ -1,0 +1,158 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="@color/background_color">
+
+    <!-- Task Title -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Task Title"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="6dp" />
+
+    <EditText
+        android:id="@+id/editTaskTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter task title"
+        android:padding="10dp"
+        android:textSize="14sp" />
+
+    <!-- Task Description -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Task Description"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="6dp" />
+
+    <EditText
+        android:id="@+id/editTaskDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter task description"
+        android:padding="10dp"
+        android:minLines="3"
+        android:textSize="14sp" />
+    <!-- Due Date and Time -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp">
+
+        <Button
+            android:id="@+id/editDueDateButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Select Date"
+            android:padding="8dp"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/editDueTimeButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:text="Select Time"
+            android:padding="8dp"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <!-- Priority -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Priority Level"
+        android:textSize="16sp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="6dp"
+        android:textColor="@color/label_text_color" />
+
+    <Spinner
+        android:id="@+id/editPrioritySpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/spinner_style"
+        android:padding="8dp" />
+
+    <!-- Completion Status -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Completion Status"
+        android:textSize="16sp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="6dp"
+        android:textColor="@color/label_text_color" />
+
+    <Switch
+        android:id="@+id/editCompletionStatusSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mark as Complete"
+        android:textSize="14sp" />
+
+    <!-- Reminder Date and Time -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp">
+
+        <Button
+            android:id="@+id/editReminderDateButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Select Date"
+            android:padding="8dp" />
+
+        <Button
+            android:id="@+id/editReminderTimeButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:text="Select Time"
+            android:padding="8dp" />
+    </LinearLayout>
+
+    <!-- Include Snooze Options -->
+    <include
+        layout="@layout/snooze_options"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Save and Cancel Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/saveEditButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save Changes"
+            android:padding="12dp"
+            android:layout_marginEnd="8dp" />
+
+        <Button
+            android:id="@+id/cancelEditButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:padding="12dp" />
+    </LinearLayout>
+</LinearLayout>

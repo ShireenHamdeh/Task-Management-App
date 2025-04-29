@@ -1,0 +1,39 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="@color/card_background_color"
+    android:layout_margin="8dp"
+    android:elevation="4dp">
+
+        <!-- Task Title -->
+    <TextView
+    android:id="@+id/taskTitle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Task Title"
+    android:textSize="18sp"
+    android:textStyle="bold"
+    android:textColor="@color/text_color" />
+
+        <!-- Task Due Date -->
+    <TextView
+    android:id="@+id/taskDueDate"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/taskTitle"
+    android:text="Due Date"
+    android:textColor="@color/text_secondary_color"
+    android:textSize="14sp" />
+
+        <!-- Task Priority -->
+    <TextView
+    android:id="@+id/taskPriority"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/taskDueDate"
+    android:text="Priority"
+    android:textColor="@color/high_priority_color"
+    android:textSize="14sp" />
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/today_background_color"
+    android:padding="16dp">
+
+    <!-- Title for Today's Tasks -->
+    <TextView
+        android:id="@+id/todayTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Today's Tasks"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_color"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"
+        android:visibility="gone" /> <!-- Initially hidden -->
+
+    <!-- Sort Spinner Container -->
+    <LinearLayout
+        android:id="@+id/sortContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/todayTitle"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/spinner_background"
+        android:padding="8dp"
+        android:elevation="4dp"
+        android:visibility="gone"> <!-- Hidden by default -->
+
+        <Spinner
+            android:id="@+id/SpinnerByPriority"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+    <!-- Empty View for No Tasks -->
+    <TextView
+        android:id="@+id/empty_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="No tasks for today."
+        android:textSize="18sp"
+        android:textColor="#3D3D3D"
+        android:visibility="gone"
+        android:layout_centerInParent="true" /> <!-- Centered in the parent -->
+
+    <!-- Tasks RecyclerView -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/ViewTasks"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/sortContainer"
+        android:clipToPadding="false" />
+
+    <!-- Congratulation Frame Animation -->
+    <ImageView
+        android:id="@+id/congratulationFrame"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:visibility="gone"
+        android:layout_centerInParent="true"
+        android:background="@drawable/congratulation_animation" /> <!-- Made smaller -->
+</RelativeLayout>
